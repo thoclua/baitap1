@@ -1,0 +1,93 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+
+}
+
+.header{
+    padding: 0;
+    margin: 0;
+}
+
+.banner img{
+    height: 70px;
+    width: 100%;
+}
+
+.menu{
+    background-color: rgb(66, 66, 226);
+    height: 60px;
+
+}
+
+.taskbar{
+    display: flex;
+    margin: 0 190px;
+    justify-content: space-between;
+
+}
+
+.taskbar-select{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.select-btn{
+    text-align: center;
+    padding: 21px 16px;
+    background-color: rgb(66, 66, 226);
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    height: 18px;
+}
+
+.select-btn a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.select-btn a:hover{
+    color: rgb(127, 221, 127);
+}
+
+.menu .search{
+    height: 35px;
+    margin: 13px 0;
+
+}
+
+.menu .search input{
+    padding: 8px 16px;
+    border-radius: 15px;
+    background-color: white;
+
+}
+
+.content{
+    margin: 18px 190px;
+    border: 1px #ccc solid;
+    display: flex;
+
+}
+
+.content-left{
+    flex: 2;
+}
+
+.content-img{
+    width: 60%;
+    float: left;
+}
+
+.abc-img{
+    width: 40%;
+}
+
